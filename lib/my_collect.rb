@@ -5,6 +5,7 @@ def my_collect(collection)
     new_collection << yield collection[index]
   index +=1
   end
+  binding.pry
   new_collection
 end
 
