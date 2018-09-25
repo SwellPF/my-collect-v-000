@@ -1,3 +1,4 @@
+require 'pry'
 def my_collect(collection)
   index = 0
   new_collection = []
